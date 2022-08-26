@@ -7,18 +7,98 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E019BE128867E5400153985 /* Web_view2_link.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E019BE028867E5400153985 /* Web_view2_link.swift */; };
+		3E019BE32886899000153985 /* Play_nowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E019BE22886899000153985 /* Play_nowButton.swift */; };
+		3E16DBEE288148050040F531 /* Categories_Detail_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16DBED288148050040F531 /* Categories_Detail_view.swift */; };
+		3E16DBF028814B4A0040F531 /* Bonus_Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16DBEF28814B4A0040F531 /* Bonus_Categories.swift */; };
+		3E16DBF328814C470040F531 /* Searching_barrr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E16DBF228814C470040F531 /* Searching_barrr.swift */; };
+		3E2F135D28A902BB0097C885 /* All_Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2F135C28A902BB0097C885 /* All_Models.swift */; };
+		3E2F135F28A903460097C885 /* WebView_VM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2F135E28A903460097C885 /* WebView_VM.swift */; };
+		3E2F136128A903C90097C885 /* WebView_VM2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2F136028A903C90097C885 /* WebView_VM2.swift */; };
+		3E2F136328A905310097C885 /* API_Call_ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2F136228A905310097C885 /* API_Call_ViewModel.swift */; };
+		3E2F136528A9056B0097C885 /* app_interenet_Connection_VM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2F136428A9056B0097C885 /* app_interenet_Connection_VM.swift */; };
+		3E2F136728A9059F0097C885 /* Password&Email_Validation_VM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2F136628A9059F0097C885 /* Password&Email_Validation_VM.swift */; };
+		3E7AF937287ED437000A1DE4 /* LunchScreen_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7AF936287ED437000A1DE4 /* LunchScreen_View.swift */; };
+		3E7AF939287ED511000A1DE4 /* Network_connection_VM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7AF938287ED511000A1DE4 /* Network_connection_VM.swift */; };
+		3E7AF93C287EDE9E000A1DE4 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 3E7AF93B287EDE9E000A1DE4 /* SDWebImageSwiftUI */; };
+		3E7D3544286D7784007FB6B9 /* webView_model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7D3543286D7784007FB6B9 /* webView_model.swift */; };
+		3E7D3547286D7D33007FB6B9 /* All_models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7D3546286D7D33007FB6B9 /* All_models.swift */; };
+		3E7D3549286D80C3007FB6B9 /* Countries_VM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7D3548286D80C3007FB6B9 /* Countries_VM.swift */; };
+		3E7D354B286DA01A007FB6B9 /* Side_Menue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7D354A286DA01A007FB6B9 /* Side_Menue.swift */; };
+		3E836B4E2872BE1000CF3D9F /* Play_GamesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E836B4D2872BE1000CF3D9F /* Play_GamesView.swift */; };
+		3E836B502872CCA300CF3D9F /* API_Call_VM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E836B4F2872CCA300CF3D9F /* API_Call_VM.swift */; };
+		3E836B552872E48600CF3D9F /* SearchBar_detail_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E836B542872E48600CF3D9F /* SearchBar_detail_view.swift */; };
+		3E84A33F287FE0140067F65D /* Products_Detail_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E84A33E287FE0140067F65D /* Products_Detail_View.swift */; };
+		3E84A341288038B70067F65D /* WebView_model2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E84A340288038B70067F65D /* WebView_model2.swift */; };
+		3E8502D5286C25E800664D8D /* Web_view_description.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8502D4286C25E700664D8D /* Web_view_description.swift */; };
+		3EB8952B2887D8DB00FFB2C9 /* Aboutus_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB8952A2887D8DB00FFB2C9 /* Aboutus_View.swift */; };
+		3EB8952D2887D9CA00FFB2C9 /* Terms_&_condition_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB8952C2887D9CA00FFB2C9 /* Terms_&_condition_View.swift */; };
+		3EB8952F2887DA8100FFB2C9 /* Bonus_View_sidMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB8952E2887DA8100FFB2C9 /* Bonus_View_sidMenu.swift */; };
+		3EB895312888153400FFB2C9 /* Login_Bonus_View_Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB895302888153400FFB2C9 /* Login_Bonus_View_Card.swift */; };
+		3EC04BFF288937AD0086BADE /* Password_Email_Validation_VM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC04BFE288937AD0086BADE /* Password_Email_Validation_VM.swift */; };
 		3ED0DFFF28697BBD0083DA27 /* CasinoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED0DFFE28697BBD0083DA27 /* CasinoApp.swift */; };
 		3ED0E00128697BBD0083DA27 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED0E00028697BBD0083DA27 /* ContentView.swift */; };
 		3ED0E00328697BBE0083DA27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ED0E00228697BBE0083DA27 /* Assets.xcassets */; };
 		3ED0E00628697BBE0083DA27 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ED0E00528697BBE0083DA27 /* Preview Assets.xcassets */; };
+		3ED0E00E286985F80083DA27 /* Casino_Launch_Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ED0E00D286985F80083DA27 /* Casino_Launch_Screen.storyboard */; };
+		3ED0E01128699FC80083DA27 /* View_Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED0E01028699FC80083DA27 /* View_Card.swift */; };
+		3ED0E016286AC5FF0083DA27 /* Home_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED0E015286AC5FF0083DA27 /* Home_view.swift */; };
+		3ED0E018286AC8020083DA27 /* See_more_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED0E017286AC8020083DA27 /* See_more_view.swift */; };
+		3ED0E01A286B02770083DA27 /* News_Detail_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED0E019286B02770083DA27 /* News_Detail_View.swift */; };
+		3ED0E01C286B0DB90083DA27 /* Tab_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED0E01B286B0DB90083DA27 /* Tab_view.swift */; };
+		3ED0E01E286B189D0083DA27 /* Rating_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED0E01D286B189D0083DA27 /* Rating_view.swift */; };
+		3EE753FC28857158004FE138 /* WarCardGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE753FB28857158004FE138 /* WarCardGame.swift */; };
+		3EE753FE28857586004FE138 /* GameLunchingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE753FD28857586004FE138 /* GameLunchingScreen.swift */; };
+		3EE7540028857AE0004FE138 /* MemorizeGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE753FF28857AE0004FE138 /* MemorizeGame.swift */; };
+		3EE754032885823F004FE138 /* TicTacTeoGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE754022885823F004FE138 /* TicTacTeoGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E019BE028867E5400153985 /* Web_view2_link.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Web_view2_link.swift; sourceTree = "<group>"; };
+		3E019BE22886899000153985 /* Play_nowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Play_nowButton.swift; sourceTree = "<group>"; };
+		3E16DBED288148050040F531 /* Categories_Detail_view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories_Detail_view.swift; sourceTree = "<group>"; };
+		3E16DBEF28814B4A0040F531 /* Bonus_Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bonus_Categories.swift; sourceTree = "<group>"; };
+		3E16DBF228814C470040F531 /* Searching_barrr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Searching_barrr.swift; sourceTree = "<group>"; };
+		3E2F135C28A902BB0097C885 /* All_Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = All_Models.swift; sourceTree = "<group>"; };
+		3E2F135E28A903460097C885 /* WebView_VM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView_VM.swift; sourceTree = "<group>"; };
+		3E2F136028A903C90097C885 /* WebView_VM2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView_VM2.swift; sourceTree = "<group>"; };
+		3E2F136228A905310097C885 /* API_Call_ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_Call_ViewModel.swift; sourceTree = "<group>"; };
+		3E2F136428A9056B0097C885 /* app_interenet_Connection_VM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = app_interenet_Connection_VM.swift; sourceTree = "<group>"; };
+		3E2F136628A9059F0097C885 /* Password&Email_Validation_VM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Password&Email_Validation_VM.swift"; sourceTree = "<group>"; };
+		3E7AF936287ED437000A1DE4 /* LunchScreen_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunchScreen_View.swift; sourceTree = "<group>"; };
+		3E7AF938287ED511000A1DE4 /* Network_connection_VM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network_connection_VM.swift; sourceTree = "<group>"; };
+		3E7D3543286D7784007FB6B9 /* webView_model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webView_model.swift; sourceTree = "<group>"; };
+		3E7D3546286D7D33007FB6B9 /* All_models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = All_models.swift; sourceTree = "<group>"; };
+		3E7D3548286D80C3007FB6B9 /* Countries_VM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countries_VM.swift; sourceTree = "<group>"; };
+		3E7D354A286DA01A007FB6B9 /* Side_Menue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Side_Menue.swift; sourceTree = "<group>"; };
+		3E836B4D2872BE1000CF3D9F /* Play_GamesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Play_GamesView.swift; sourceTree = "<group>"; };
+		3E836B4F2872CCA300CF3D9F /* API_Call_VM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_Call_VM.swift; sourceTree = "<group>"; };
+		3E836B542872E48600CF3D9F /* SearchBar_detail_view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar_detail_view.swift; sourceTree = "<group>"; };
+		3E84A33E287FE0140067F65D /* Products_Detail_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products_Detail_View.swift; sourceTree = "<group>"; };
+		3E84A340288038B70067F65D /* WebView_model2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView_model2.swift; sourceTree = "<group>"; };
+		3E8502D4286C25E700664D8D /* Web_view_description.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Web_view_description.swift; sourceTree = "<group>"; };
+		3EB8952A2887D8DB00FFB2C9 /* Aboutus_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aboutus_View.swift; sourceTree = "<group>"; };
+		3EB8952C2887D9CA00FFB2C9 /* Terms_&_condition_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Terms_&_condition_View.swift"; sourceTree = "<group>"; };
+		3EB8952E2887DA8100FFB2C9 /* Bonus_View_sidMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bonus_View_sidMenu.swift; sourceTree = "<group>"; };
+		3EB895302888153400FFB2C9 /* Login_Bonus_View_Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login_Bonus_View_Card.swift; sourceTree = "<group>"; };
+		3EC04BFE288937AD0086BADE /* Password_Email_Validation_VM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Password_Email_Validation_VM.swift; sourceTree = "<group>"; };
 		3ED0DFFB28697BBD0083DA27 /* Casino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Casino.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ED0DFFE28697BBD0083DA27 /* CasinoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CasinoApp.swift; sourceTree = "<group>"; };
 		3ED0E00028697BBD0083DA27 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3ED0E00228697BBE0083DA27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3ED0E00528697BBE0083DA27 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3ED0E00C286985430083DA27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3ED0E00D286985F80083DA27 /* Casino_Launch_Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Casino_Launch_Screen.storyboard; sourceTree = "<group>"; };
+		3ED0E01028699FC80083DA27 /* View_Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_Card.swift; sourceTree = "<group>"; };
+		3ED0E015286AC5FF0083DA27 /* Home_view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home_view.swift; sourceTree = "<group>"; };
+		3ED0E017286AC8020083DA27 /* See_more_view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = See_more_view.swift; sourceTree = "<group>"; };
+		3ED0E019286B02770083DA27 /* News_Detail_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News_Detail_View.swift; sourceTree = "<group>"; };
+		3ED0E01B286B0DB90083DA27 /* Tab_view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab_view.swift; sourceTree = "<group>"; };
+		3ED0E01D286B189D0083DA27 /* Rating_view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rating_view.swift; sourceTree = "<group>"; };
+		3EE753FB28857158004FE138 /* WarCardGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarCardGame.swift; sourceTree = "<group>"; };
+		3EE753FD28857586004FE138 /* GameLunchingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLunchingScreen.swift; sourceTree = "<group>"; };
+		3EE753FF28857AE0004FE138 /* MemorizeGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeGame.swift; sourceTree = "<group>"; };
+		3EE754022885823F004FE138 /* TicTacTeoGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacTeoGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,15 +106,70 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E7AF93C287EDE9E000A1DE4 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E2F135828A902520097C885 /* My_work_casino_fairgoApp */ = {
+			isa = PBXGroup;
+			children = (
+				3ED0E014286AC5EE0083DA27 /* Views */,
+				3EE753FA28857142004FE138 /* Games */,
+				3ED0E00F28699FA30083DA27 /* Components */,
+				3E2F135A28A9027C0097C885 /* View_Models */,
+				3E2F135928A902730097C885 /* Models */,
+			);
+			path = My_work_casino_fairgoApp;
+			sourceTree = "<group>";
+		};
+		3E2F135928A902730097C885 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3E2F135C28A902BB0097C885 /* All_Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3E2F135A28A9027C0097C885 /* View_Models */ = {
+			isa = PBXGroup;
+			children = (
+				3E2F135E28A903460097C885 /* WebView_VM.swift */,
+				3E2F136028A903C90097C885 /* WebView_VM2.swift */,
+				3E2F136228A905310097C885 /* API_Call_ViewModel.swift */,
+				3E2F136428A9056B0097C885 /* app_interenet_Connection_VM.swift */,
+				3E2F136628A9059F0097C885 /* Password&Email_Validation_VM.swift */,
+			);
+			path = View_Models;
+			sourceTree = "<group>";
+		};
+		3E7D3542286D775F007FB6B9 /* View_Models */ = {
+			isa = PBXGroup;
+			children = (
+				3E7D3543286D7784007FB6B9 /* webView_model.swift */,
+				3E84A340288038B70067F65D /* WebView_model2.swift */,
+				3E7D3548286D80C3007FB6B9 /* Countries_VM.swift */,
+				3E836B4F2872CCA300CF3D9F /* API_Call_VM.swift */,
+				3E7AF938287ED511000A1DE4 /* Network_connection_VM.swift */,
+				3EC04BFE288937AD0086BADE /* Password_Email_Validation_VM.swift */,
+			);
+			path = View_Models;
+			sourceTree = "<group>";
+		};
+		3E7D3545286D7D12007FB6B9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3E7D3546286D7D33007FB6B9 /* All_models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		3ED0DFF228697BBD0083DA27 = {
 			isa = PBXGroup;
 			children = (
+				3E2F135828A902520097C885 /* My_work_casino_fairgoApp */,
 				3ED0DFFD28697BBD0083DA27 /* Casino */,
 				3ED0DFFC28697BBD0083DA27 /* Products */,
 			);
@@ -51,6 +186,10 @@
 		3ED0DFFD28697BBD0083DA27 /* Casino */ = {
 			isa = PBXGroup;
 			children = (
+				3E7D3545286D7D12007FB6B9 /* Models */,
+				3E7D3542286D775F007FB6B9 /* View_Models */,
+				3ED0E00C286985430083DA27 /* Info.plist */,
+				3ED0E017286AC8020083DA27 /* See_more_view.swift */,
 				3ED0DFFE28697BBD0083DA27 /* CasinoApp.swift */,
 				3ED0E00028697BBD0083DA27 /* ContentView.swift */,
 				3ED0E00228697BBE0083DA27 /* Assets.xcassets */,
@@ -65,6 +204,52 @@
 				3ED0E00528697BBE0083DA27 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3ED0E00F28699FA30083DA27 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3ED0E00D286985F80083DA27 /* Casino_Launch_Screen.storyboard */,
+				3ED0E01028699FC80083DA27 /* View_Card.swift */,
+				3E16DBF228814C470040F531 /* Searching_barrr.swift */,
+				3E019BE22886899000153985 /* Play_nowButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		3ED0E014286AC5EE0083DA27 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3ED0E015286AC5FF0083DA27 /* Home_view.swift */,
+				3ED0E019286B02770083DA27 /* News_Detail_View.swift */,
+				3ED0E01B286B0DB90083DA27 /* Tab_view.swift */,
+				3ED0E01D286B189D0083DA27 /* Rating_view.swift */,
+				3E8502D4286C25E700664D8D /* Web_view_description.swift */,
+				3EB8952E2887DA8100FFB2C9 /* Bonus_View_sidMenu.swift */,
+				3E7D354A286DA01A007FB6B9 /* Side_Menue.swift */,
+				3E836B4D2872BE1000CF3D9F /* Play_GamesView.swift */,
+				3EB8952A2887D8DB00FFB2C9 /* Aboutus_View.swift */,
+				3EB8952C2887D9CA00FFB2C9 /* Terms_&_condition_View.swift */,
+				3E836B542872E48600CF3D9F /* SearchBar_detail_view.swift */,
+				3E7AF936287ED437000A1DE4 /* LunchScreen_View.swift */,
+				3E84A33E287FE0140067F65D /* Products_Detail_View.swift */,
+				3E16DBED288148050040F531 /* Categories_Detail_view.swift */,
+				3E16DBEF28814B4A0040F531 /* Bonus_Categories.swift */,
+				3E019BE028867E5400153985 /* Web_view2_link.swift */,
+				3EB895302888153400FFB2C9 /* Login_Bonus_View_Card.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3EE753FA28857142004FE138 /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				3EE753FB28857158004FE138 /* WarCardGame.swift */,
+				3EE753FD28857586004FE138 /* GameLunchingScreen.swift */,
+				3EE753FF28857AE0004FE138 /* MemorizeGame.swift */,
+				3EE754022885823F004FE138 /* TicTacTeoGame.swift */,
+			);
+			path = Games;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +268,9 @@
 			dependencies = (
 			);
 			name = Casino;
+			packageProductDependencies = (
+				3E7AF93B287EDE9E000A1DE4 /* SDWebImageSwiftUI */,
+			);
 			productName = Casino;
 			productReference = 3ED0DFFB28697BBD0083DA27 /* Casino.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +299,9 @@
 				Base,
 			);
 			mainGroup = 3ED0DFF228697BBD0083DA27;
+			packageReferences = (
+				3E7AF93A287EDE9E000A1DE4 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 3ED0DFFC28697BBD0083DA27 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +318,7 @@
 			files = (
 				3ED0E00628697BBE0083DA27 /* Preview Assets.xcassets in Resources */,
 				3ED0E00328697BBE0083DA27 /* Assets.xcassets in Resources */,
+				3ED0E00E286985F80083DA27 /* Casino_Launch_Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +329,46 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EE754032885823F004FE138 /* TicTacTeoGame.swift in Sources */,
+				3EB8952B2887D8DB00FFB2C9 /* Aboutus_View.swift in Sources */,
+				3EE753FE28857586004FE138 /* GameLunchingScreen.swift in Sources */,
+				3E2F135D28A902BB0097C885 /* All_Models.swift in Sources */,
+				3ED0E01A286B02770083DA27 /* News_Detail_View.swift in Sources */,
+				3E7D354B286DA01A007FB6B9 /* Side_Menue.swift in Sources */,
+				3ED0E016286AC5FF0083DA27 /* Home_view.swift in Sources */,
+				3E7AF939287ED511000A1DE4 /* Network_connection_VM.swift in Sources */,
+				3EB8952D2887D9CA00FFB2C9 /* Terms_&_condition_View.swift in Sources */,
+				3E2F136528A9056B0097C885 /* app_interenet_Connection_VM.swift in Sources */,
+				3E2F136728A9059F0097C885 /* Password&Email_Validation_VM.swift in Sources */,
+				3E836B502872CCA300CF3D9F /* API_Call_VM.swift in Sources */,
+				3ED0E01C286B0DB90083DA27 /* Tab_view.swift in Sources */,
+				3E16DBF028814B4A0040F531 /* Bonus_Categories.swift in Sources */,
+				3ED0E01128699FC80083DA27 /* View_Card.swift in Sources */,
+				3E7D3544286D7784007FB6B9 /* webView_model.swift in Sources */,
+				3E019BE128867E5400153985 /* Web_view2_link.swift in Sources */,
+				3E2F136128A903C90097C885 /* WebView_VM2.swift in Sources */,
+				3E8502D5286C25E800664D8D /* Web_view_description.swift in Sources */,
+				3E16DBEE288148050040F531 /* Categories_Detail_view.swift in Sources */,
 				3ED0E00128697BBD0083DA27 /* ContentView.swift in Sources */,
+				3EC04BFF288937AD0086BADE /* Password_Email_Validation_VM.swift in Sources */,
+				3E2F135F28A903460097C885 /* WebView_VM.swift in Sources */,
+				3E16DBF328814C470040F531 /* Searching_barrr.swift in Sources */,
+				3E836B4E2872BE1000CF3D9F /* Play_GamesView.swift in Sources */,
+				3EB8952F2887DA8100FFB2C9 /* Bonus_View_sidMenu.swift in Sources */,
+				3E836B552872E48600CF3D9F /* SearchBar_detail_view.swift in Sources */,
 				3ED0DFFF28697BBD0083DA27 /* CasinoApp.swift in Sources */,
+				3ED0E018286AC8020083DA27 /* See_more_view.swift in Sources */,
+				3E7D3549286D80C3007FB6B9 /* Countries_VM.swift in Sources */,
+				3E7D3547286D7D33007FB6B9 /* All_models.swift in Sources */,
+				3E84A33F287FE0140067F65D /* Products_Detail_View.swift in Sources */,
+				3E019BE32886899000153985 /* Play_nowButton.swift in Sources */,
+				3E2F136328A905310097C885 /* API_Call_ViewModel.swift in Sources */,
+				3ED0E01E286B189D0083DA27 /* Rating_view.swift in Sources */,
+				3EE7540028857AE0004FE138 /* MemorizeGame.swift in Sources */,
+				3EB895312888153400FFB2C9 /* Login_Bonus_View_Card.swift in Sources */,
+				3E7AF937287ED437000A1DE4 /* LunchScreen_View.swift in Sources */,
+				3EE753FC28857158004FE138 /* WarCardGame.swift in Sources */,
+				3E84A341288038B70067F65D /* WebView_model2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +500,8 @@
 				DEVELOPMENT_TEAM = 78B5GQU47L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Casino/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FairgoOnlinePoker;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +531,8 @@
 				DEVELOPMENT_TEAM = 78B5GQU47L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Casino/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FairgoOnlinePoker;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -339,6 +573,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3E7AF93A287EDE9E000A1DE4 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3E7AF93B287EDE9E000A1DE4 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3E7AF93A287EDE9E000A1DE4 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3ED0DFF328697BBD0083DA27 /* Project object */;
 }

@@ -11,7 +11,8 @@ import SwiftUI
 struct CasinoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LunchScreen_vieww()
         }
     }
 }
+//Exception    NSException *    "Unrecognized conversion specifier 'Q' in format string."    0x0000600000100630
