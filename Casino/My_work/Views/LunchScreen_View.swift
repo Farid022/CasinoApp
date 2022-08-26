@@ -22,7 +22,7 @@ struct LunchScreen_vieww: View{
                 ZStack{
                         Image("lunchScreen")
                         .resizable()
-                        .scaledToFill()
+                        //.scaledToFill()
                         .ignoresSafeArea()
                     
                     VStack{

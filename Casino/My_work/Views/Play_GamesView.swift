@@ -12,7 +12,7 @@ struct Play_GamesView: View {
     //@StateObject var vm = downloadDataWith_combineVM()
     @Environment(\.presentationMode) var presentationMoood
 
-    var game_names = ["WarCard", "TicTacToe", "Memorizing"]
+    var game_names = ["WarCard", "TicTacToe", "Memorizing", "Poker Game"]
 
     @GestureState private var dragOffset = CGSize.zero
     

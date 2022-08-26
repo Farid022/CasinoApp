@@ -13,11 +13,13 @@ struct GameLunchingScreen: View {
     var body: some View {
         ZStack {
             if !isLoading {
-                Image("lunchScreen")
-                    .resizable()
-                    .scaledToFill()
-                .ignoresSafeArea()
-                .navigationBarHidden(false)
+                HStack(alignment: .center) {
+                    Image("lunchScreen")
+                        .resizable()
+                        //.scaledToFit()
+                        .ignoresSafeArea()
+                    .navigationBarHidden(false)
+                }
                 
                 ProgressView()
                     .progressViewStyle(CircularProgressViewStyle(tint: .black))
@@ -30,12 +32,17 @@ struct GameLunchingScreen: View {
                 }else
                 if game_name == "TicTacToe"{
                     EmojiMemoryGameView(viewModel: EmojiMemoryGame())
-                }else{
+                }else
+                
+                //{
                     if game_name == "Memorizing"{
                         TicTacTeo_HomeScreen()
                             //.navigationBarHidden(true)
+                    } else
+                if game_name == "Poker Game" {
+                        ContentView_poker()
                     }
-                }
+                //}
                     
             }
             
