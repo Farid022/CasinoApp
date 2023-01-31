@@ -117,19 +117,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3E2F135828A902520097C885 /* My_work */ = {
-			isa = PBXGroup;
-			children = (
-				3ED0E00F28699FA30083DA27 /* Components */,
-				3E2F135928A902730097C885 /* Models */,
-				3E2F135A28A9027C0097C885 /* View_Models */,
-				3ED0E014286AC5EE0083DA27 /* Views */,
-				3E9CAC1D28B879C100DE3B70 /* Empty_screens_practice */,
-				3EE753FA28857142004FE138 /* Games */,
-			);
-			path = My_work;
-			sourceTree = "<group>";
-		};
 		3E2F135928A902730097C885 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -210,7 +197,12 @@
 		3ED0DFFD28697BBD0083DA27 /* Casino */ = {
 			isa = PBXGroup;
 			children = (
-				3E2F135828A902520097C885 /* My_work */,
+				3ED0E00F28699FA30083DA27 /* Components */,
+				3E2F135928A902730097C885 /* Models */,
+				3E2F135A28A9027C0097C885 /* View_Models */,
+				3ED0E014286AC5EE0083DA27 /* Views */,
+				3E9CAC1D28B879C100DE3B70 /* Empty_screens_practice */,
+				3EE753FA28857142004FE138 /* Games */,
 				3ED0E00C286985430083DA27 /* Info.plist */,
 				3ED0DFFE28697BBD0083DA27 /* CasinoApp.swift */,
 				3ED0E00228697BBE0083DA27 /* Assets.xcassets */,
