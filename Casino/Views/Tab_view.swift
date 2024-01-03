@@ -19,6 +19,28 @@ struct Tab_view: View {
         ZStack {
             Color.white
                 .ignoresSafeArea()
+
+
+            // TabView {
+            //                 ForEach(promo_images, id: \.self) { image in
+            //                     Image(image)
+            //                         .resizable()
+            //                         .scaledToFill()
+            //                 }
+            //             }
+            //             .frame(height: 190)
+            //             .clipShape(RoundedRectangle(cornerRadius: 10))
+            //             .tabViewStyle(.page)
+            //             .padding(.horizontal)
+            //             .shadow(radius: 6)
+            //             .onReceive(timer) { _ in
+            //                 withAnimation(.default){
+            //                     count = count == 5 ? 1 : count + 1
+            //                 }
+            //             }
+                            
+
+
             
             //VStack {
             TabView(selection: $count) {
@@ -59,6 +81,26 @@ struct Tab_view: View {
         }
     }
 }
+
+
+// TabView {
+//                             ForEach(promo_images, id: \.self) { image in
+//                                 Image(image)
+//                                     .resizable()
+//                                     .scaledToFill()
+//                             }
+//                         }
+//                         .frame(height: 190)
+//                         .clipShape(RoundedRectangle(cornerRadius: 10))
+//                         .tabViewStyle(.page)
+//                         .padding(.horizontal)
+//                         .shadow(radius: 6)
+//                         .onReceive(timer) { _ in
+//                             withAnimation(.default){
+//                                 count = count == 5 ? 1 : count + 1
+//                             }
+//                         }
+                            
 
 struct Tab_view_examp_Previews: PreviewProvider {
     static var previews: some View {
